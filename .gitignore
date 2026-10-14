@@ -1,0 +1,53 @@
+# system files
+.DS_Store
+Thumbs.db
+
+# compiled binaries (includes the built `main` executable)
+main
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.class
+*.com
+*.gch
+*.pch
+
+# build directories
+build/
+bin/
+out/
+dist/
+cmake-build-*/
+
+# build tooling
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# debug / profiling
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.prof
+vgcore.*
+
+# editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+compile_commands.json
